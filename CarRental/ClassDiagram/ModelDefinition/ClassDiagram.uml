@@ -96,7 +96,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-              LastKnownName="Car"
+              LastKnownName="ICar"
               LastKnownLocation="ClassDiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -146,7 +146,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-              LastKnownName="Car"
+              LastKnownName="ICar"
               LastKnownLocation="ClassDiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -493,7 +493,7 @@
             Id="419f0788-eb26-432f-9996-c6ac59e0e5be">
             <interfaceMoniker
               Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-              LastKnownName="Car"
+              LastKnownName="ICar"
               LastKnownLocation="ClassDiagram.uml" />
           </interfaceRealization>
           <dependency
@@ -693,7 +693,7 @@
             Id="4c3c6116-d988-499a-bfbe-6b42b72310b2">
             <interfaceMoniker
               Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-              LastKnownName="Car"
+              LastKnownName="ICar"
               LastKnownLocation="ClassDiagram.uml" />
           </interfaceRealization>
         </suppliersInternal>
@@ -717,7 +717,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-              LastKnownName="Car"
+              LastKnownName="ICar"
               LastKnownLocation="ClassDiagram.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1225,7 +1225,7 @@
     <packageHasNamedElement>
       <Interface
         Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3"
-        name="Car"
+        name="ICar"
         isAbstract="false"
         isLeaf="false">
         <ownedOperations>
@@ -1334,7 +1334,7 @@
           </operation>
           <operation
             Id="e8fcf594-f37e-4564-9ec4-d9ef43a2d715"
-            name="~Car"
+            name="~ICar"
             isLeaf="false"
             isStatic="false"
             isAbstract="true"
@@ -1576,7 +1576,7 @@
     <packageHasNamedElement>
       <class
         Id="8e1cd572-ec27-4c0b-b047-e155f65acea3"
-        name="MiddleRange"
+        name="MiddleRangeCar"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -1649,7 +1649,7 @@
     <packageHasNamedElement>
       <class
         Id="0ed63821-5b60-4f41-8f53-c1b1d057b149"
-        name="Premium"
+        name="PremiumCar"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

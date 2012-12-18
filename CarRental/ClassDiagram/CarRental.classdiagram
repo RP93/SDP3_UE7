@@ -15,20 +15,6 @@
 </body>
     </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="fcee1765-a86f-41fd-b712-9c313061c0f0">
-      <profileInstance Id="c2051342-c4ac-46fb-a7f6-60a3588f3390" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="c9c994c5-dbea-4ac1-8e79-5cc15cd450ff">
-      <profileInstance Id="c838eaf3-e055-443b-9fc6-eb4872cb9ee3" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="0a2823d4-2b97-49e4-8510-5b7a39dd1a02" name="Object" isAbstract="true" isLeaf="false" isActiveClass="false">
@@ -54,7 +40,7 @@
         </generalsInternal>
         <targetEnds>
           <association Id="ed035392-01a3-4302-aab4-b731c0432e2c" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
-            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="Car" />
+            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="ICar" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="bb9aef5f-6afa-4acf-8802-77e16f3747df" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
@@ -80,7 +66,7 @@
             <elementDefinition Id="3cf4fe6f-15a0-4355-9f85-67237c45085b" />
           </association>
           <association Id="bb400f30-f955-44ac-8c9c-72957197d4ba" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
-            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="Car" />
+            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="ICar" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="76817189-cf63-47c2-83d3-a655fbfa5d66" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
@@ -275,7 +261,7 @@
         <elementDefinition Id="853b1bb2-fc8b-456e-b39b-b6aa3ecdd3ee" />
         <suppliersInternal>
           <interfaceRealization Id="cd55cae7-c10a-4431-b4ea-42eb27b05adb">
-            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="Car" />
+            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="ICar" />
             <elementDefinition Id="419f0788-eb26-432f-9996-c6ac59e0e5be" />
           </interfaceRealization>
         </suppliersInternal>
@@ -371,7 +357,7 @@
         <elementDefinition Id="da6a15ba-6e86-4c37-abdc-6211f6bbdce2" />
         <suppliersInternal>
           <interfaceRealization Id="2b6c6b62-49eb-4d2c-9c48-fd4c7b620368">
-            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="Car" />
+            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="ICar" />
             <elementDefinition Id="4c3c6116-d988-499a-bfbe-6b42b72310b2" />
           </interfaceRealization>
         </suppliersInternal>
@@ -383,7 +369,7 @@
         </generalsInternal>
         <targetEnds>
           <association Id="56797180-a119-490e-9773-793bcf7d103d" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
-            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="Car" />
+            <interfaceMoniker Id="d426c263-d635-4dd8-b5a7-b72a476ced57" LastKnownName="ICar" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="9cef667c-2bbe-40ba-b5a1-82f80714775f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
@@ -667,7 +653,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <Interface Id="d426c263-d635-4dd8-b5a7-b72a476ced57" name="Car" isAbstract="false" isLeaf="false">
+      <Interface Id="d426c263-d635-4dd8-b5a7-b72a476ced57" name="ICar" isAbstract="false" isLeaf="false">
         <elementDefinition Id="fac7d63a-083e-4d5c-b12a-2a77483fe4f3" />
         <ownedOperations>
           <operation Id="04a4807d-45ce-45e2-a9dd-4c138b627575" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
@@ -727,7 +713,7 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="16b77f82-e0d8-46e4-b05c-9a365f3c5774" name="~Car" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+          <operation Id="16b77f82-e0d8-46e4-b05c-9a365f3c5774" name="~ICar" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="e8fcf594-f37e-4564-9ec4-d9ef43a2d715" />
           </operation>
         </ownedOperations>
@@ -902,7 +888,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="d7c819eb-f606-4732-9c8c-303d00874019" name="MiddleRange" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="d7c819eb-f606-4732-9c8c-303d00874019" name="MiddleRangeCar" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="8e1cd572-ec27-4c0b-b047-e155f65acea3" />
         <generalsInternal>
           <generalization Id="ff009569-4d8d-48f8-88c2-81815751a2a3" isSubstitutable="false">
@@ -941,7 +927,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="ce2704db-9969-42a4-9e1b-0853e92d1878" name="Premium" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="ce2704db-9969-42a4-9e1b-0853e92d1878" name="PremiumCar" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="0ed63821-5b60-4f41-8f53-c1b1d057b149" />
         <generalsInternal>
           <generalization Id="e81818d5-adb8-44b7-b342-243e36ded97f" isSubstitutable="false">
@@ -1061,5 +1047,19 @@
   </packagedElements>
   <package Id="fc73007e-3fa6-4258-bfb1-42718558d127" name="ClassDiagram">
     <elementDefinition Id="16a7e999-d45f-492f-afce-587977608216" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fcee1765-a86f-41fd-b712-9c313061c0f0">
+        <profileInstance Id="c2051342-c4ac-46fb-a7f6-60a3588f3390" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c9c994c5-dbea-4ac1-8e79-5cc15cd450ff">
+        <profileInstance Id="c838eaf3-e055-443b-9fc6-eb4872cb9ee3" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
