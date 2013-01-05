@@ -11,7 +11,7 @@
 CarRental::~CarRental() 
 {}
 
-void CarRental::Add(Car* c)
+void CarRental::Add(ICar* c)
 {
 
 }
@@ -26,22 +26,22 @@ void CarRental::PrintReserved(std::ostream& ost)
 
 }
 
-TCarList CarRental::GetAvailable(std::string const& type="", std::string const& manufacturer="")
+TCarList CarRental::GetAvailable(std::string const& type, std::string const& manufacturer)
 {
 
 }
 
-TCarList CarRental::GetReserved(std::string const& type="", std::string const& manufacturer="")
+TCarList CarRental::GetReserved(std::string const& type, std::string const& manufacturer)
 {
 
 }
 
-void CarRental::Reserve(Car* c)
+void CarRental::Reserve(ICar* c)
 {
 
 }
 
-void CarRental::MoveToAvailable(Car* c)
+void CarRental::MoveToAvailable(ICar* c)
 {
 
 }

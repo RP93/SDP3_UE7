@@ -11,7 +11,7 @@
 #include <list>
 #include "ICar.h"
 
-typedef std::list<Car*> TCarList;
+typedef std::list<ICar*> TCarList;
 
 class CarRental
 {
@@ -19,13 +19,13 @@ public:
 	//Destructor
 	virtual ~CarRental();
 	
-	void Add(Car* c);
+	void Add(ICar* c);
 	void PrintAvailable(std::ostream& ost);
 	void PrintReserved(std::ostream& ost);
 	TCarList GetAvailable(std::string const& type="", std::string const& manufacturer="");
 	TCarList GetReserved(std::string const& type="", std::string const& manufacturer="");
-	void Reserve(Car* c);
-	void MoveToAvailable(Car* c);
+	void Reserve(ICar* c);
+	void MoveToAvailable(ICar* c);
 	
 private:
 	TCarList mAvailableCars;
