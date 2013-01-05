@@ -28,12 +28,14 @@ void CarRental::PrintReserved(std::ostream& ost)
 
 TCarList CarRental::GetAvailable(std::string const& type, std::string const& manufacturer)
 {
-
+	TCarList carList;
+	return carList;	//FHAOHHF
 }
 
 TCarList CarRental::GetReserved(std::string const& type, std::string const& manufacturer)
 {
-
+	TCarList carList;
+	return carList;	//FHAOHHF
 }
 
 void CarRental::Reserve(ICar* c)

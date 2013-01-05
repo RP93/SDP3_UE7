@@ -14,8 +14,7 @@ class Decorator_AirConditioner :
 	public Decorator
 {
 public:
-	Decorator_AirConditioner(ICar* car, int price);
-	int GetPrice();
+	Decorator_AirConditioner(ICar* car, int price) : Decorator(car,price){}
 	void Print(std::ostream& stream);
 };
 

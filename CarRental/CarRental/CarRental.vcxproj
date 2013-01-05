@@ -96,6 +96,7 @@
     <ClCompile Include="Decorator_Navi.cpp" />
     <ClCompile Include="Decorator_Speedometer.cpp" />
     <ClCompile Include="Decorator_Xenion.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MiddleRangeCar.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="PremiumCar.cpp" />

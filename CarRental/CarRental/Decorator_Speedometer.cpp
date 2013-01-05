@@ -13,6 +13,7 @@ Decorator_Speedometer::Decorator_Speedometer(ICar* car, int price)
 
 int Decorator_Speedometer::GetPrice()
 {
+	return mPrice;
 }
 
 void Decorator_Speedometer::Print(std::ostream& stream)

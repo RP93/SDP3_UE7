@@ -13,6 +13,7 @@ Decorator_Xenion::Decorator_Xenion(ICar* car, int price)
 
 int Decorator_Xenion::GetPrice()
 {
+	return 0;
 }
 
 void Decorator_Xenion::Print(std::ostream& stream)

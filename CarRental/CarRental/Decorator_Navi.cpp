@@ -13,8 +13,10 @@ Decorator_Navi::Decorator_Navi(ICar* car, int price)
 
 int Decorator_Navi::GetPrice()
 {
+	return 0;
 }
 
 void Decorator_Navi::Print(std::ostream& stream)
 {
+
 }

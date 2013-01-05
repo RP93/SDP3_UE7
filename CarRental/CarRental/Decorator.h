@@ -15,20 +15,19 @@
 #include "ICar.h"
 
 class Decorator :
-	public Object
+	public Object,
+	public ICar
 {
 public:
-	std::string GetManufacturer();
-	int GetPrice();
-	std::string GetType();
-	void Print(std::ostream& stream);
+	std::string GetManufacturer() const;
+	int GetPrice() const;
+	std::string GetType() const;
+	void Print(std::ostream& stream) = 0;
 	
 protected:
 	Decorator(ICar* car, int price);
 	//default ctor
 	Decorator(){}
-
-private:
 	ICar* mComp;
 	int mPrice;
 };

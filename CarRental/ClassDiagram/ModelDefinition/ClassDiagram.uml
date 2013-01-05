@@ -203,8 +203,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="e445f0e7-81ac-455c-8679-13a6b27b0eb7"
-                LastKnownName="list&lt;Car*&gt;"
+                Id="39d89807-6349-4726-ae6f-29ff90d8efeb"
+                LastKnownName="list&lt;ICar*&gt;"
                 LastKnownLocation="ClassDiagram.uml" />
             </type_NamedElement>
           </property>
@@ -222,8 +222,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="e445f0e7-81ac-455c-8679-13a6b27b0eb7"
-                LastKnownName="list&lt;Car*&gt;"
+                Id="39d89807-6349-4726-ae6f-29ff90d8efeb"
+                LastKnownName="list&lt;ICar*&gt;"
                 LastKnownLocation="ClassDiagram.uml" />
             </type_NamedElement>
           </property>
@@ -333,30 +333,30 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="1fb2a14c-8ecb-47c0-bd8f-46fb430e9dde"
-                  name="string const&amp;"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="39d79f43-aaf7-48b4-a1a2-0d0d6ee59dab"
-                  name="string const&amp;"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="f21f77f8-a2fa-4451-8f5e-acbf110118f8"
                   direction="Return"
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="e445f0e7-81ac-455c-8679-13a6b27b0eb7"
-                      LastKnownName="list&lt;Car*&gt;"
+                      Id="39d89807-6349-4726-ae6f-29ff90d8efeb"
+                      LastKnownName="list&lt;ICar*&gt;"
                       LastKnownLocation="ClassDiagram.uml" />
                   </type_NamedElement>
                 </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="af4d7994-9a73-47b4-b76c-0ef084554bfb"
+                  name="string const&amp;"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f77413c9-4fd7-4342-89e6-7a4fdcabf659"
+                  name="string const&amp;"
+                  direction="In"
+                  isUnique="false" />
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -371,30 +371,30 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="5f1a0336-862c-4eac-b98c-4052c093ebbb"
-                  name="string const&amp;"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="43da8961-b924-4410-a6fe-812837c69033"
-                  name="string const&amp;"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="f8a950a4-84d6-4e42-9e5c-b400fb96d321"
                   direction="Return"
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="e445f0e7-81ac-455c-8679-13a6b27b0eb7"
-                      LastKnownName="list&lt;Car*&gt;"
+                      Id="39d89807-6349-4726-ae6f-29ff90d8efeb"
+                      LastKnownName="list&lt;ICar*&gt;"
                       LastKnownLocation="ClassDiagram.uml" />
                   </type_NamedElement>
                 </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="26b0c7b2-c80e-4428-bad7-191eacc94b83"
+                  name="string const&amp;"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="14089394-b79a-4354-99b4-471173a07ed7"
+                  name="string const&amp;"
+                  direction="In"
+                  isUnique="false" />
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -409,13 +409,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="66369b09-2be2-4c8a-aea7-281b175d4072"
-                  name="Car*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="6c35791d-964a-4081-9e93-debad335a993"
                   direction="Return"
                   isUnique="false">
@@ -426,6 +419,13 @@
                       LastKnownLocation="ClassDiagram.uml" />
                   </type_NamedElement>
                 </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ecb7e726-6fe1-42de-8da9-10ec4b55447b"
+                  name="ICar*"
+                  direction="In"
+                  isUnique="false" />
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -440,13 +440,6 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="c4dd725d-d2ec-4c07-9d51-22b098d9fa8a"
-                  name="Car*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
                   Id="89e0f92b-79e7-490f-97f0-814b96ecb457"
                   direction="Return"
                   isUnique="false">
@@ -457,6 +450,13 @@
                       LastKnownLocation="ClassDiagram.uml" />
                   </type_NamedElement>
                 </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b455a313-8278-46a2-a2c7-4e64305ed214"
+                  name="ICar*"
+                  direction="In"
+                  isUnique="false" />
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -485,7 +485,7 @@
       <class
         Id="853b1bb2-fc8b-456e-b39b-b6aa3ecdd3ee"
         name="ConcreteCar"
-        isAbstract="false"
+        isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
         <suppliersInternal>
@@ -519,7 +519,7 @@
           <property
             Id="ea016ef9-141b-4530-80c6-3c73b9834b96"
             name="mPrice"
-            visibility="Private"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -538,7 +538,7 @@
           <property
             Id="2b0e5376-b5d1-41dd-b7bd-c381e253a980"
             name="mManufacturer"
-            visibility="Private"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -557,7 +557,7 @@
           <property
             Id="c9a3d070-22d4-4a4c-8010-2f0b93100fd3"
             name="mType"
-            visibility="Private"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -604,7 +604,7 @@
             name="Print"
             isLeaf="false"
             isStatic="false"
-            isAbstract="false"
+            isAbstract="true"
             concurrency="Sequential"
             isQuery="false">
             <ownedParameters>
@@ -685,7 +685,7 @@
       <class
         Id="da6a15ba-6e86-4c37-abdc-6211f6bbdce2"
         name="Decorator"
-        isAbstract="false"
+        isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
         <suppliersInternal>
@@ -750,7 +750,7 @@
           <property
             Id="5f7b4526-c413-4e81-9c90-76333971f698"
             name="mComp"
-            visibility="Private"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -761,15 +761,15 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="9a3b02de-c0ab-4297-851a-0d8291cc4fdd"
-                LastKnownName="Car*"
+                Id="e12113e2-e0e9-4479-b725-bb078953662c"
+                LastKnownName="ICar*"
                 LastKnownLocation="ClassDiagram.uml" />
             </type_NamedElement>
           </property>
           <property
             Id="d42006cb-c594-4b6e-a971-302a3691a09f"
             name="mPrice"
-            visibility="Private"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -816,7 +816,7 @@
             name="Print"
             isLeaf="false"
             isStatic="false"
-            isAbstract="false"
+            isAbstract="true"
             concurrency="Sequential"
             isQuery="false">
             <ownedParameters>
@@ -972,14 +972,14 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="6a0c492b-a9e4-41cc-a580-0f571dab7022"
-                  name="Car*"
+                  Id="82a5fe81-ad5f-4bd1-a2e8-97e9089b638b"
+                  name="ICar*"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="7291edf3-acc6-4ce2-99e2-60eb512ff706"
+                  Id="93db9474-d3f4-47d6-b171-ffee3d9a8d8c"
                   name="int"
                   direction="In"
                   isUnique="false" />
@@ -1073,14 +1073,14 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="018f340f-09a4-4b2b-a931-86e292b31773"
-                  name="Car*"
+                  Id="d99b7209-26b2-42a9-a20d-6c46a9913c43"
+                  name="ICar*"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="d9fbae7a-fbdc-49ec-aacc-855396096d89"
+                  Id="2300c1da-0e85-4f30-af96-77d32afd26db"
                   name="int"
                   direction="In"
                   isUnique="false" />
@@ -1174,14 +1174,14 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="a15f0bd4-7c8d-4c4d-9a6b-a6d8f906b579"
-                  name="Car*"
+                  Id="6712769e-4ec7-49f3-90fe-6fdb0011f438"
+                  name="ICar*"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="8b658335-4904-4b84-8ce8-fbbedb0f5631"
+                  Id="ca68b8a3-6aba-4dfa-ac1d-4e1e00156b9a"
                   name="int"
                   direction="In"
                   isUnique="false" />
@@ -1396,14 +1396,14 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="28eb282a-be74-4629-95fe-acef4a7286f5"
-                  name="Car*"
+                  Id="18801c95-514e-4ed8-9bf7-1628f2cd26ae"
+                  name="ICar*"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="516ddc91-1667-4d54-9e06-2456d95e7c96"
+                  Id="4dbc567e-f83e-4a72-aabe-c48330e8d30f"
                   name="int"
                   direction="In"
                   isUnique="false" />
@@ -1519,9 +1519,8 @@
         </generalsInternal>
         <ownedAttributesInternal>
           <property
-            Id="c9b22399-3c35-49dd-a40a-a2e53ed1daa7"
-            name="cPrice"
-            visibility="Private"
+            Id="4a9995a0-aece-49a4-81a8-aa58b34879f1"
+            name="SmallCar(string,string)"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1529,14 +1528,7 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="99a43e63-0891-4110-a307-a857f536f17d"
-                LastKnownName="int"
-                LastKnownLocation="ClassDiagram.uml" />
-            </type_NamedElement>
-          </property>
+            isComposite="false" />
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -1590,27 +1582,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="9771af5e-bae3-4599-ade9-3be0e7fd9631"
-            name="cPrice"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="99a43e63-0891-4110-a307-a857f536f17d"
-                LastKnownName="int"
-                LastKnownLocation="ClassDiagram.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="add1f202-c434-4f2c-94fe-bd75beb477fa"
@@ -1663,27 +1634,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="4d9eb0aa-de22-46ac-8dc7-5afb49d3260d"
-            name="cPrice"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="99a43e63-0891-4110-a307-a857f536f17d"
-                LastKnownName="int"
-                LastKnownLocation="ClassDiagram.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="0b5cd4c5-aed3-4ee0-b5e5-344a50ec17ba"
@@ -1736,27 +1686,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="545cc543-bd29-492a-ac8c-f03c8e53fb0e"
-            name="cPrice"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="99a43e63-0891-4110-a307-a857f536f17d"
-                LastKnownName="int"
-                LastKnownLocation="ClassDiagram.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="9521e3de-4713-4418-a69c-d26485f6567c"
@@ -1791,6 +1720,16 @@
           </operation>
         </ownedOperationsInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e12113e2-e0e9-4479-b725-bb078953662c"
+        name="ICar*" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="39d89807-6349-4726-ae6f-29ff90d8efeb"
+        name="list&lt;ICar*&gt;" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

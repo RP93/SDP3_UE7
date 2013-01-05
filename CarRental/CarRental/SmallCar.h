@@ -1,21 +1,24 @@
 ///////////////////////////////////////////////////////////////////////////
-// Workfile : Object.h
+// Workfile : SmallCar.h
 // Author : Reinhard Penn, Bernhard Selymes
 // Date : 6.11.2012
-// Description : Header for Object.cpp
+// Description : Header for SmallCar.cpp
 ///////////////////////////////////////////////////////////////////////////
 
-#ifndef OBJECT_H
-#define OBJECT_H
+#ifndef SMALLCAR_H
+#define SMALLCAR_H
 
-class Object
+#include <string>
+#include "ConcreteCar.h"
+
+std::size_t const priceSmallCar = 7500;
+
+class SmallCar :
+	public ConcreteCar
 {
 public:
-	//virtual Destructor for baseclass
-	virtual ~Object();
-protected:
-	//Default CTor for baseclass
-	Object();
+	SmallCar(std::string manufacturer, std::string type);
+	void Print(std::ostream& stream);
 };
 
 #endif

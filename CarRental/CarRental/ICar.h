@@ -14,10 +14,10 @@ public:
 	//virtual DTor
 	~ICar() {};
 
-	virtual int GetPrice() = 0;
+	virtual int GetPrice() const = 0;
 	virtual void Print(std::ostream& ost) = 0;
-	virtual std::string GetManufacturer() = 0;
-	virtual std::string GetType() = 0;
+	virtual std::string GetManufacturer() const = 0;
+	virtual std::string GetType() const = 0;
 };
 
 #endif

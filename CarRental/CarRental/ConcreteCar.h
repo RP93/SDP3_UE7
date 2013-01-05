@@ -1,21 +1,32 @@
 ///////////////////////////////////////////////////////////////////////////
-// Workfile : Object.h
+// Workfile : ConcreteCar.h
 // Author : Reinhard Penn, Bernhard Selymes
 // Date : 6.11.2012
-// Description : Header for Object.cpp
+// Description : Header for ConcreteCar.cpp
 ///////////////////////////////////////////////////////////////////////////
 
-#ifndef OBJECT_H
-#define OBJECT_H
+#ifndef CONCRETECAR_H
+#define CONCRETECAR_H
 
-class Object
+#include <fstream>
+#include <string>
+#include "Object.h"
+#include "ICar.h"
+
+class ConcreteCar :
+	public Object,
+	public ICar
 {
 public:
-	//virtual Destructor for baseclass
-	virtual ~Object();
+	std::string GetManufacturer() const;
+	int GetPrice() const;
+	std::string GetType() const;
+	virtual void Print(std::ostream& stream) = 0;
+
 protected:
-	//Default CTor for baseclass
-	Object();
+	std::string mManufacturer;
+	int mPrice;
+	std::string mType;
 };
 
 #endif
