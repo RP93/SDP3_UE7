@@ -33,9 +33,9 @@
       <class Id="1f9b7737-895f-425b-b9b4-067b8de4f72e" name="CarRental" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="59f3f611-855f-4ca4-ad4d-6a99cc365825" />
         <generalsInternal>
-          <generalization Id="cfd9d42a-c476-444b-baa6-a5c5896d3cfc" isSubstitutable="false">
+          <generalization Id="fef09864-054e-4331-9405-3d3a77d15b15" isSubstitutable="false">
             <classMoniker Id="0a2823d4-2b97-49e4-8510-5b7a39dd1a02" LastKnownName="Object" />
-            <elementDefinition Id="ba130143-e77b-4219-83ef-9499584070cc" />
+            <elementDefinition Id="b912e12e-8fa1-43b1-91b7-877d5bc399d5" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -261,9 +261,9 @@
           </interfaceRealization>
         </suppliersInternal>
         <generalsInternal>
-          <generalization Id="fc9a769f-fa55-4aba-b0d2-70f45419b5db" isSubstitutable="false">
+          <generalization Id="8136058d-0194-4680-b6fa-4cce96448ce1" isSubstitutable="false">
             <classMoniker Id="0a2823d4-2b97-49e4-8510-5b7a39dd1a02" LastKnownName="Object" />
-            <elementDefinition Id="4e761edb-5f5b-440b-b679-d2b48611588f" />
+            <elementDefinition Id="ee9496cb-eef7-400b-a40b-d3e7155aae90" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -357,9 +357,9 @@
           </interfaceRealization>
         </suppliersInternal>
         <generalsInternal>
-          <generalization Id="f9f5fabe-9d29-4e74-8b51-fbf631043cef" isSubstitutable="false">
+          <generalization Id="aada8b8e-e92c-4bc7-ac97-553ab1e994df" isSubstitutable="false">
             <classMoniker Id="0a2823d4-2b97-49e4-8510-5b7a39dd1a02" LastKnownName="Object" />
-            <elementDefinition Id="7ac99f4b-79c8-44f3-bcff-7f52b59a7290" />
+            <elementDefinition Id="b29f730b-287e-4bb6-881c-1e5281e49020" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -725,11 +725,6 @@
             <elementDefinition Id="4337ed83-6b9f-4016-9c11-f979ceb33e15" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property Id="c9f4c6d1-42ce-4aca-b658-a69ff3d913f2" name="SmallCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4a9995a0-aece-49a4-81a8-aa58b34879f1" />
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="76c0b432-36b2-4cba-b089-0b3da6334191" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="ad597af2-6848-4798-9583-8ac5af8f9966" />
@@ -749,6 +744,21 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="f51a1a3c-fb40-41f6-8282-53e3dcff2998" name="SmallCar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5fdd9890-0dee-421c-9048-4ffe75e1a0cd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2eeb4466-f2cb-4263-b195-5686c22f0a79" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="3c20feea-e0ee-4a18-b991-599c72184c33" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4bedfc4b-2b3f-4abd-b75e-fb1a3bf28c14" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="3ff6a476-4515-472f-86fd-947f06b7db23" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -761,11 +771,6 @@
             <elementDefinition Id="71a3ad16-91bb-4b09-ae78-d9749f3d185f" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property Id="9421cad9-a031-4e84-8035-d46a35eaef96" name="MiddleRangeCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8b63f14d-25e7-4cfb-84a8-4dc98701ab04" />
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="3b014699-5706-4a92-af6a-87d04d7136f6" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="add1f202-c434-4f2c-94fe-bd75beb477fa" />
@@ -785,6 +790,21 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="7cf15836-4cf8-46c7-b176-ebd2204541ea" name="MiddleRangeCar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="81750844-71d0-47e4-830f-89e6af43cec1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0c7b989c-c983-46ad-ab27-f142c6cfaa29" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="d065130f-5680-477b-a926-8fab4ffd87d7" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d71428c4-902f-4891-beac-e0bcd1847567" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="ab049ad5-ad8f-41e9-96fc-7eb0eb906358" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -797,11 +817,6 @@
             <elementDefinition Id="d26e01bb-ee68-4912-bd66-b37ecf20e646" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property Id="125ed47f-5ed3-4dcc-a3f0-98db9c4dacc3" name="PremiumCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="df094acc-12d5-4124-8c2d-41633f4b032e" />
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="37416d46-a21c-4d57-a6ae-c4d167e96082" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="0b5cd4c5-aed3-4ee0-b5e5-344a50ec17ba" />
@@ -821,6 +836,21 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="8855de90-04e8-42fb-a3b1-bccadc806c9e" name="PremiumCar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f5d2074a-5667-44a7-9bba-74f0459fd046" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b423b330-96dd-4daf-b81f-2a29747d7ef3" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="9c09f54f-9f16-41f2-8170-9289580d063d" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ad701a0f-6cfe-48d6-9954-3066d9869881" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="fa6c9f4c-b18b-4730-bb64-0847dbf643a0" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -833,11 +863,6 @@
             <elementDefinition Id="a3476ece-093a-4be0-8481-0cb15e444620" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property Id="2f670b38-d8fe-4c55-8ae0-8ae4e488a6f3" name="SUV(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="07bb1e34-2cf7-4bdf-b93c-2ba2f7bc2d53" />
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="2a75ded6-b108-4735-a479-5306f4652659" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="9521e3de-4713-4418-a69c-d26485f6567c" />
@@ -853,6 +878,21 @@
                   <type_NamedElement>
                     <referencedTypeMoniker Id="287312fd-dde4-4fb2-b31d-588bfa660b76" LastKnownName="void" />
                   </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5aa79c1f-7dbd-41b6-b3df-907e5a032655" name="SUV" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f704f825-08c4-4f18-a209-4f162fcfdf5a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d6ec946f-43da-4248-8637-a85f2388d186" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="897d993e-0fa3-4a86-aaea-463f1f30d84f" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4347d435-202e-41bb-9082-1e0e54704c85" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="4ae0f950-8441-4ef0-a7a9-d2c25fa2a2d5" />
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>

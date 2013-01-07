@@ -78,7 +78,7 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="ba130143-e77b-4219-83ef-9499584070cc"
+            Id="b912e12e-8fa1-43b1-91b7-877d5bc399d5"
             isSubstitutable="false">
             <classMoniker
               Id="97e4676f-0063-476f-a8cc-018e47f58334"
@@ -507,7 +507,7 @@
         </suppliersInternal>
         <generalsInternal>
           <generalization
-            Id="4e761edb-5f5b-440b-b679-d2b48611588f"
+            Id="ee9496cb-eef7-400b-a40b-d3e7155aae90"
             isSubstitutable="false">
             <classMoniker
               Id="97e4676f-0063-476f-a8cc-018e47f58334"
@@ -699,7 +699,7 @@
         </suppliersInternal>
         <generalsInternal>
           <generalization
-            Id="7ac99f4b-79c8-44f3-bcff-7f52b59a7290"
+            Id="b29f730b-287e-4bb6-881c-1e5281e49020"
             isSubstitutable="false">
             <classMoniker
               Id="97e4676f-0063-476f-a8cc-018e47f58334"
@@ -1367,19 +1367,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="4a9995a0-aece-49a4-81a8-aa58b34879f1"
-            name="SmallCar(string, string)"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="ad597af2-6848-4798-9583-8ac5af8f9966"
@@ -1412,6 +1399,31 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="5fdd9890-0dee-421c-9048-4ffe75e1a0cd"
+            name="SmallCar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3c20feea-e0ee-4a18-b991-599c72184c33"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ff6a476-4515-472f-86fd-947f06b7db23"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1432,19 +1444,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="8b63f14d-25e7-4cfb-84a8-4dc98701ab04"
-            name="MiddleRangeCar(string, string)"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="add1f202-c434-4f2c-94fe-bd75beb477fa"
@@ -1477,6 +1476,31 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="81750844-71d0-47e4-830f-89e6af43cec1"
+            name="MiddleRangeCar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d065130f-5680-477b-a926-8fab4ffd87d7"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab049ad5-ad8f-41e9-96fc-7eb0eb906358"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1497,19 +1521,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="df094acc-12d5-4124-8c2d-41633f4b032e"
-            name="PremiumCar(string, string)"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="0b5cd4c5-aed3-4ee0-b5e5-344a50ec17ba"
@@ -1542,6 +1553,31 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="f5d2074a-5667-44a7-9bba-74f0459fd046"
+            name="PremiumCar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9c09f54f-9f16-41f2-8170-9289580d063d"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fa6c9f4c-b18b-4730-bb64-0847dbf643a0"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1562,19 +1598,6 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="07bb1e34-2cf7-4bdf-b93c-2ba2f7bc2d53"
-            name="SUV(string, string)"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="9521e3de-4713-4418-a69c-d26485f6567c"
@@ -1604,6 +1627,31 @@
                       LastKnownLocation="ClassDiagram.uml" />
                   </type_NamedElement>
                 </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f704f825-08c4-4f18-a209-4f162fcfdf5a"
+            name="SUV"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="897d993e-0fa3-4a86-aaea-463f1f30d84f"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ae0f950-8441-4ef0-a7a9-d2c25fa2a2d5"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
