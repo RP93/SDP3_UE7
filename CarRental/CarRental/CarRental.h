@@ -12,6 +12,7 @@
 #include "ICar.h"
 
 typedef std::list<ICar*> TCarList;
+typedef TCarList::iterator TCarListItor;
 
 class CarRental
 {
@@ -20,10 +21,10 @@ public:
 	virtual ~CarRental();
 	
 	void Add(ICar* c);
-	void PrintAvailable(std::ostream& ost);
-	void PrintReserved(std::ostream& ost);
-	TCarList GetAvailable(std::string const& type="", std::string const& manufacturer="");
-	TCarList GetReserved(std::string const& type="", std::string const& manufacturer="");
+	void PrintAvailable(std::ostream& ost) const;
+	void PrintReserved(std::ostream& ost) const;
+	TCarList GetAvailable(std::string const& type="", std::string const& manufacturer="") const;
+	TCarList GetReserved(std::string const& type="", std::string const& manufacturer="") const;
 	void Reserve(ICar* c);
 	void MoveToAvailable(ICar* c);
 	

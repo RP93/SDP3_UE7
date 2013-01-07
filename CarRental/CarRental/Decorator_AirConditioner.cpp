@@ -24,6 +24,10 @@ Decorator_AirConditioner::Decorator_AirConditioner(ICar* car)
 	{
 		std::cout << "Error in Decorator_AirConditioner::Decorator_AirConditioner: " << error << std::endl;
 	}
+	catch(...)
+	{
+		std::cerr << "Decorator_AirConditioner::Decorator_AirConditioner: Unknown Exception occured" << std::endl;
+	}
 }
 
 void Decorator_AirConditioner::Print(std::ostream& stream)
@@ -41,5 +45,9 @@ void Decorator_AirConditioner::Print(std::ostream& stream)
 	catch (std::string const& error)
 	{
 		std::cout << "Error in Decorator_AirConditioner::Print: " << error << std::endl;
+	}
+	catch(...)
+	{
+		std::cerr << "Decorator_AirConditioner::Print: Unknown Exception occured" << std::endl;
 	}
 }

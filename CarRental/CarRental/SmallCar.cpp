@@ -30,6 +30,10 @@ SmallCar::SmallCar(std::string manufacturer, std::string type)
 	{
 		std::cout << "Error in SmallCar::SmallCar: " << error << std::endl;
 	}
+	catch(...)
+	{
+		std::cerr << "SmallCar::SmallCar: Unknown Exception occured" << std::endl;
+	}
 }
 	
 void SmallCar::Print(std::ostream& stream)
@@ -47,5 +51,9 @@ void SmallCar::Print(std::ostream& stream)
 	catch (std::string const& error)
 	{
 		std::cout << "Error in SmallCar::Print: " << error << std::endl;
+	}
+	catch(...)
+	{
+		std::cerr << "SmallCar::Print: Unknown Exception occured" << std::endl;
 	}
 }
