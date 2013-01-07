@@ -890,32 +890,6 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation
-            Id="45699c65-73fb-4afc-ad83-314eed9c9b9b"
-            name="Decorator"
-            visibility="Protected"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="4f7c2e19-5525-430a-a17e-09bbcc737e45"
-                  name="Car*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="e5230228-0626-4d12-9ae9-4ed77f057583"
-                  name="int"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -938,30 +912,6 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="df8158a4-252f-44d5-9a97-3cc8d1ac6c43"
-            name="GetPrice"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="95804979-23d4-4541-8338-d4d5234b9dc6"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="99a43e63-0891-4110-a307-a857f536f17d"
-                      LastKnownName="int"
-                      LastKnownLocation="ClassDiagram.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="239e1c85-141a-41bf-9230-a93d870cb71a"
             name="Decorator_Navi"
             isLeaf="false"
@@ -972,15 +922,8 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="82a5fe81-ad5f-4bd1-a2e8-97e9089b638b"
+                  Id="ff432528-f549-43fc-bcb1-4afdc97a32df"
                   name="ICar*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="93db9474-d3f4-47d6-b171-ffee3d9a8d8c"
-                  name="int"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
@@ -1039,30 +982,6 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="dc47cefe-165e-40d2-8ab4-7343856dd0cb"
-            name="GetPrice"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="a48547eb-6fdb-4cec-8ba1-6e92d5e50622"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="99a43e63-0891-4110-a307-a857f536f17d"
-                      LastKnownName="int"
-                      LastKnownLocation="ClassDiagram.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="a9e72d07-6984-4d80-aa0e-8349e8d910f8"
             name="Decorator_Xenon"
             isLeaf="false"
@@ -1073,15 +992,8 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="d99b7209-26b2-42a9-a20d-6c46a9913c43"
+                  Id="6b583107-e07e-4a54-90c7-9a4a734ecf0a"
                   name="ICar*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="2300c1da-0e85-4f30-af96-77d32afd26db"
-                  name="int"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
@@ -1140,30 +1052,6 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="a5d01f5d-3b87-4da6-88b6-af95c980cc25"
-            name="GetPrice"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="955e3a9a-b1d1-4bb6-9317-8a0ef91cff0a"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="99a43e63-0891-4110-a307-a857f536f17d"
-                      LastKnownName="int"
-                      LastKnownLocation="ClassDiagram.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="f4389eb8-be97-4e93-a454-60fb98776ae5"
             name="Decorator_Speedometer"
             isLeaf="false"
@@ -1174,15 +1062,8 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="6712769e-4ec7-49f3-90fe-6fdb0011f438"
+                  Id="a6cc76f4-34a7-4cd6-8407-46da2f94da6e"
                   name="ICar*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="ca68b8a3-6aba-4dfa-ac1d-4e1e00156b9a"
-                  name="int"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
@@ -1362,30 +1243,6 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="2a1cffb2-d763-453e-8f11-deb9df0e1e81"
-            name="GetPrice"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="f1b501a7-53d8-424a-bb60-88a58f20e604"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="99a43e63-0891-4110-a307-a857f536f17d"
-                      LastKnownName="int"
-                      LastKnownLocation="ClassDiagram.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="958661fe-dc72-44b9-962d-5065501c8b66"
             name="Decorator_AirConditioner"
             isLeaf="false"
@@ -1396,15 +1253,8 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="18801c95-514e-4ed8-9bf7-1628f2cd26ae"
+                  Id="9d73c80a-dfdc-4b3d-ab61-1ab06c70c741"
                   name="ICar*"
-                  direction="In"
-                  isUnique="false" />
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="4dbc567e-f83e-4a72-aabe-c48330e8d30f"
-                  name="int"
                   direction="In"
                   isUnique="false" />
               </operationHasOwnedParameters>
@@ -1520,7 +1370,7 @@
         <ownedAttributesInternal>
           <property
             Id="4a9995a0-aece-49a4-81a8-aa58b34879f1"
-            name="SmallCar(string,string)"
+            name="SmallCar(string, string)"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1582,6 +1432,19 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8b63f14d-25e7-4cfb-84a8-4dc98701ab04"
+            name="MiddleRangeCar(string, string)"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="add1f202-c434-4f2c-94fe-bd75beb477fa"
@@ -1634,6 +1497,19 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="df094acc-12d5-4124-8c2d-41633f4b032e"
+            name="PremiumCar(string, string)"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="0b5cd4c5-aed3-4ee0-b5e5-344a50ec17ba"
@@ -1686,6 +1562,19 @@
               LastKnownLocation="ClassDiagram.uml" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="07bb1e34-2cf7-4bdf-b93c-2ba2f7bc2d53"
+            name="SUV(string, string)"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
             Id="9521e3de-4713-4418-a69c-d26485f6567c"

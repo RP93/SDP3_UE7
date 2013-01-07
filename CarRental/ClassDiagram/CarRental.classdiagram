@@ -452,21 +452,6 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="73162d50-a247-426f-8ec2-15dcbbc65e70" name="Decorator" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="45699c65-73fb-4afc-ad83-314eed9c9b9b" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="e6a41811-119d-4286-996c-4b86e364d05d" name="Car*" direction="In" isUnique="false">
-                  <elementDefinition Id="4f7c2e19-5525-430a-a17e-09bbcc737e45" />
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="865c3483-675c-4108-9598-21e5b5c6dfc3" name="int" direction="In" isUnique="false">
-                  <elementDefinition Id="e5230228-0626-4d12-9ae9-4ed77f057583" />
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -480,30 +465,12 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="b929a9b6-ffbc-4cd9-b4a7-2092a55e1501" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="df8158a4-252f-44d5-9a97-3cc8d1ac6c43" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="e16c5b49-578d-43a9-8325-2b8624aaee6e" direction="Return" isUnique="false">
-                  <elementDefinition Id="95804979-23d4-4541-8338-d4d5234b9dc6" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="1c1d169a-037d-48bd-824d-84721e529c14" LastKnownName="int" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
           <operation Id="7c4deb0d-0ef7-4da8-a0f0-31fbb8e95420" name="Decorator_Navi" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="239e1c85-141a-41bf-9230-a93d870cb71a" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="4d9d0990-c03c-44f2-9b05-e312aacbe30e" name="ICar*" direction="In" isUnique="false">
-                  <elementDefinition Id="82a5fe81-ad5f-4bd1-a2e8-97e9089b638b" />
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="4e6420fd-c1e7-4e53-90e5-f5c22171b7a5" name="int" direction="In" isUnique="false">
-                  <elementDefinition Id="93db9474-d3f4-47d6-b171-ffee3d9a8d8c" />
+                <parameter Id="2ff49226-f25e-4de0-8a50-53646248e904" name="ICar*" direction="In" isUnique="false">
+                  <elementDefinition Id="ff432528-f549-43fc-bcb1-4afdc97a32df" />
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -539,30 +506,12 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="a50fe141-34e6-475c-87e4-fccf55d21f06" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="dc47cefe-165e-40d2-8ab4-7343856dd0cb" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="dee81857-d700-45e5-b213-24f13e983ecf" direction="Return" isUnique="false">
-                  <elementDefinition Id="a48547eb-6fdb-4cec-8ba1-6e92d5e50622" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="3d07deac-bb44-4688-9f16-e1eab5229788" LastKnownName="int" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
           <operation Id="37adf3ad-92ee-4583-b68a-85bae351191c" name="Decorator_Xenon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="a9e72d07-6984-4d80-aa0e-8349e8d910f8" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="7d406a2b-98ae-4eb0-9ae5-e794ddf9b152" name="ICar*" direction="In" isUnique="false">
-                  <elementDefinition Id="d99b7209-26b2-42a9-a20d-6c46a9913c43" />
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="0d3b1273-db28-4ea0-b51f-dfd411c33eb6" name="int" direction="In" isUnique="false">
-                  <elementDefinition Id="2300c1da-0e85-4f30-af96-77d32afd26db" />
+                <parameter Id="9a9da472-3a94-4f21-9188-131676be1391" name="ICar*" direction="In" isUnique="false">
+                  <elementDefinition Id="6b583107-e07e-4a54-90c7-9a4a734ecf0a" />
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -598,30 +547,12 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="0fbf5478-933d-4d14-a490-d8db88e9129a" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="a5d01f5d-3b87-4da6-88b6-af95c980cc25" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="c74dac20-608e-46e9-948e-a8885339ad44" direction="Return" isUnique="false">
-                  <elementDefinition Id="955e3a9a-b1d1-4bb6-9317-8a0ef91cff0a" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="e7165f61-3919-4f97-932d-82e1f0089e18" LastKnownName="int" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
           <operation Id="78f0872e-0b99-4a8a-86a1-2e6f648c553a" name="Decorator_Speedometer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="f4389eb8-be97-4e93-a454-60fb98776ae5" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="66e05c9f-c334-4a5e-9ddd-3d9215f62fae" name="ICar*" direction="In" isUnique="false">
-                  <elementDefinition Id="6712769e-4ec7-49f3-90fe-6fdb0011f438" />
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="ef6c9f29-b59a-4fdb-9d4a-e5d1ac33936f" name="int" direction="In" isUnique="false">
-                  <elementDefinition Id="ca68b8a3-6aba-4dfa-ac1d-4e1e00156b9a" />
+                <parameter Id="14a51771-627b-43e7-a59d-492e99ab78a2" name="ICar*" direction="In" isUnique="false">
+                  <elementDefinition Id="a6cc76f4-34a7-4cd6-8407-46da2f94da6e" />
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -724,30 +655,12 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="5cafb149-9891-465a-957b-135445ea636f" name="GetPrice" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="2a1cffb2-d763-453e-8f11-deb9df0e1e81" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="0d6a1312-39bc-4626-a796-538e5cddc8f5" direction="Return" isUnique="false">
-                  <elementDefinition Id="f1b501a7-53d8-424a-bb60-88a58f20e604" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="46becb53-39bb-45a9-b32e-34ca680a7aa5" LastKnownName="int" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
           <operation Id="f7544dfd-5d36-42cd-bfcc-b289b8f5bad5" name="Decorator_AirConditioner" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="958661fe-dc72-44b9-962d-5065501c8b66" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="ae5728a9-a1c2-4365-8f58-fbf68a552b0d" name="ICar*" direction="In" isUnique="false">
-                  <elementDefinition Id="18801c95-514e-4ed8-9bf7-1628f2cd26ae" />
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="0e009a03-db2e-4f64-8e08-65888a498de8" name="int" direction="In" isUnique="false">
-                  <elementDefinition Id="4dbc567e-f83e-4a72-aabe-c48330e8d30f" />
+                <parameter Id="a2870de1-915e-4799-a4ab-a6cdc3df1188" name="ICar*" direction="In" isUnique="false">
+                  <elementDefinition Id="9d73c80a-dfdc-4b3d-ab61-1ab06c70c741" />
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -784,26 +697,6 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="46becb53-39bb-45a9-b32e-34ca680a7aa5" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
-        <elementDefinition Id="99a43e63-0891-4110-a307-a857f536f17d" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="1c1d169a-037d-48bd-824d-84721e529c14" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
-        <elementDefinition Id="99a43e63-0891-4110-a307-a857f536f17d" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="e7165f61-3919-4f97-932d-82e1f0089e18" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
-        <elementDefinition Id="99a43e63-0891-4110-a307-a857f536f17d" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="3d07deac-bb44-4688-9f16-e1eab5229788" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
-        <elementDefinition Id="99a43e63-0891-4110-a307-a857f536f17d" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="13ffeef5-0c4b-4a87-b00b-d676894bfc8e" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
         <elementDefinition Id="5712bb68-1b70-473f-8f08-6d2ef3d71759" />
       </referencedType>
@@ -833,7 +726,7 @@
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
-          <property Id="c9f4c6d1-42ce-4aca-b658-a69ff3d913f2" name="SmallCar(string,string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="c9f4c6d1-42ce-4aca-b658-a69ff3d913f2" name="SmallCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4a9995a0-aece-49a4-81a8-aa58b34879f1" />
           </property>
         </ownedAttributesInternal>
@@ -868,6 +761,11 @@
             <elementDefinition Id="71a3ad16-91bb-4b09-ae78-d9749f3d185f" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="9421cad9-a031-4e84-8035-d46a35eaef96" name="MiddleRangeCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8b63f14d-25e7-4cfb-84a8-4dc98701ab04" />
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="3b014699-5706-4a92-af6a-87d04d7136f6" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="add1f202-c434-4f2c-94fe-bd75beb477fa" />
@@ -899,6 +797,11 @@
             <elementDefinition Id="d26e01bb-ee68-4912-bd66-b37ecf20e646" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="125ed47f-5ed3-4dcc-a3f0-98db9c4dacc3" name="PremiumCar(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="df094acc-12d5-4124-8c2d-41633f4b032e" />
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="37416d46-a21c-4d57-a6ae-c4d167e96082" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="0b5cd4c5-aed3-4ee0-b5e5-344a50ec17ba" />
@@ -930,6 +833,11 @@
             <elementDefinition Id="a3476ece-093a-4be0-8481-0cb15e444620" />
           </generalization>
         </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="2f670b38-d8fe-4c55-8ae0-8ae4e488a6f3" name="SUV(string, string)" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="07bb1e34-2cf7-4bdf-b93c-2ba2f7bc2d53" />
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="2a75ded6-b108-4735-a479-5306f4652659" name="Print" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="9521e3de-4713-4418-a69c-d26485f6567c" />

@@ -10,11 +10,13 @@
 
 #include "Decorator.h"
 
+int const airConditionerPrice = 1500;
+
 class Decorator_AirConditioner :
 	public Decorator
 {
 public:
-	Decorator_AirConditioner(ICar* car, int price) : Decorator(car,price){}
+	Decorator_AirConditioner(ICar* car);
 	void Print(std::ostream& stream);
 };
 

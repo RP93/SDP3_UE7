@@ -25,9 +25,6 @@ public:
 	void Print(std::ostream& stream) = 0;
 	
 protected:
-	Decorator(ICar* car, int price);
-	//default ctor
-	Decorator(){}
 	ICar* mComp;
 	int mPrice;
 };

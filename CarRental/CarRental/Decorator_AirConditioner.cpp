@@ -8,14 +8,23 @@
 #include <iostream>
 #include "Decorator_AirConditioner.h"
 
-//Decorator_AirConditioner::Decorator_AirConditioner(ICar* car, int price)
-//{
-//	Decorator::Decorator(car,price);
-//}
-
-//int Decorator_AirConditioner::GetPrice()
-//{
-//}
+Decorator_AirConditioner::Decorator_AirConditioner(ICar* car)
+{
+	try
+	{
+		if(car == 0)
+		{
+			std::string error = "no valid pointer";
+			throw (error); 
+		}
+		mComp = car;
+		mPrice = airConditionerPrice;
+	}
+	catch (std::string const& error)
+	{
+		std::cout << "Error in Decorator_AirConditioner::Decorator_AirConditioner: " << error << std::endl;
+	}
+}
 
 void Decorator_AirConditioner::Print(std::ostream& stream)
 {
