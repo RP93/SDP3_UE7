@@ -10,12 +10,13 @@
 
 #include "Decorator.h"
 
+int const xenionPrice = 3000;
+
 class Decorator_Xenion :
 	public Decorator
 {
 public:
-	Decorator_Xenion(ICar* car, int price);
-	int GetPrice();
+	Decorator_Xenion(ICar* car);
 	void Print(std::ostream& stream);
 };
 

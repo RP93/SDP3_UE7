@@ -10,12 +10,13 @@
 
 #include "Decorator.h"
 
+int const naviPrice = 2000;
+
 class Decorator_Navi :
 	public Decorator
 {
 public:
-	Decorator_Navi(ICar* car, int price);
-	int GetPrice();
+	Decorator_Navi(ICar* car);
 	void Print(std::ostream& stream);
 };
 

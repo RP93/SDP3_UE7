@@ -10,12 +10,13 @@
 
 #include "Decorator.h"
 
+int const speedometerPrice = 2500;
+
 class Decorator_Speedometer :
 	public Decorator
 {
 public:
-	Decorator_Speedometer(ICar* car, int price);
-	int GetPrice();
+	Decorator_Speedometer(ICar* car);
 	void Print(std::ostream& stream);
 };
 
