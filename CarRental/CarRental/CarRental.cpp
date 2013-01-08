@@ -13,7 +13,7 @@
 
 CarRental::~CarRental() 
 {
-	std::for_each(mReservedCars.begin(),mReservedCars.end(),[&](ICar* m)
+	std::for_each(mAvailableCars.begin(),mAvailableCars.end(),[&](ICar* m)
 	{
 		delete m;
 	});

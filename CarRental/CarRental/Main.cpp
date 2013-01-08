@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <algorithm>
+#include <vld.h>
 #include "ICar.h"
 #include "CarRental.h"
 #include "Decorator.h"
@@ -47,7 +48,7 @@ void SingleTestCase()
 
 	ICar* VW = new SmallCar("VW","Golf");
 	ICar* MyCar = new Decorator_AirConditioner(VW);
-
+	
 	cout << "Add ...";
 	Rental.Add(MyCar);
 	cout << "done" << endl;
@@ -61,7 +62,7 @@ void SingleTestCase()
 	cout << "done" << endl;
 
 	cout << "GetReserved ...";
-	Rental.GetReserved("VW","Golf");
+	list = Rental.GetReserved("VW","Golf");
 	cout << "done" << endl;
 
 	cout << "PrintReserved ...";
@@ -75,7 +76,7 @@ void SingleTestCase()
 	cout << "PrintAvailable ...";
 	Rental.PrintAvailable(cout);
 	cout << "done" << endl;
-	
+
 	cout << endl << endl;
 }
 
@@ -114,7 +115,7 @@ void MultiTestCase()
 	cout << "done" << endl;
 
 	cout << "GetReserved ...";
-	Rental.GetReserved("VW","Golf");
+	list = Rental.GetReserved("VW","Golf");
 	cout << "done" << endl;
 
 	cout << "PrintReserved ...";

@@ -12,7 +12,7 @@ class ICar
 {
 public:
 	//virtual DTor
-	~ICar() {};
+	virtual ~ICar() {};
 
 	virtual int GetPrice() const = 0;
 	virtual void Print(std::ostream& ost) = 0;

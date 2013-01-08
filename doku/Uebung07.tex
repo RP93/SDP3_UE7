@@ -278,7 +278,54 @@ Geben eine Liste zurück in der die Kraftfahrzeuge enthalten sind die der angege
 \section {Testausgaben} 
 
 \begin {verbatim}
+Visual Leak Detector Version 2.2.3 installed.
+Empty testcase with NULL pointer.
+Error in CarRental::Add: no valid pointer
+Error in CarRental::MoveToAvailable: no valid pointer
+Error in CarRental::Reserve: no valid pointer
 
+
+Testcase with single entry
+Add ...done
+GetAvailable ...done
+Reserve ...done
+GetReserved ...done
+PrintReserved ...Small Car: VW Golf - Price: 7500
+Air Conditioner - Price: 1500
+Total price: 9000
+done
+MoveToAvailable ...done
+PrintAvailable ...Small Car: VW Golf - Price: 7500
+Air Conditioner - Price: 1500
+Total price: 9000
+done
+
+
+Testcase with several entries
+Add ...done
+GetAvailable ...done
+Reserve ...done
+GetReserved ...done
+PrintReserved ...Premium Car: Audi R8 - Price: 45000
+Xenion - Price: 3000
+Navi - Price: 2000
+Total price: 50000
+SUV: Toyota RAV4 - Price: 22000
+Total price: 22000
+done
+MoveToAvailable ...done
+PrintAvailable ...Small Car: VW Golf - Price: 7500
+Air Conditioner - Price: 1500
+Total price: 9000
+Middlerange Car: BMW 3 - Price: 16000
+Speedometer - Price: 2500
+Total price: 18500
+SUV: Toyota RAV4 - Price: 22000
+Total price: 22000
+done
+
+
+No memory leaks detected.
 \end {verbatim}
 
 
