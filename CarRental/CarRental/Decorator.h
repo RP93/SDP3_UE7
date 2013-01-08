@@ -19,6 +19,7 @@ class Decorator :
 	public ICar
 {
 public:
+	virtual ~Decorator();
 	std::string GetManufacturer() const;
 	int GetPrice() const;
 	std::string GetType() const;

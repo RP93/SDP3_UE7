@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include <algorithm>
-#include <vld.h>
 #include "ICar.h"
 #include "CarRental.h"
 #include "Decorator.h"
@@ -58,10 +57,7 @@ void SingleTestCase()
 	cout << "done" << endl;
 
 	cout << "Reserve ...";
-	for_each(list.begin(),list.end(),[&](ICar* m)
-	{
-		Rental.Reserve(m);
-	});	
+	Rental.Reserve(MyCar);	
 	cout << "done" << endl;
 
 	cout << "GetReserved ...";
@@ -73,21 +69,74 @@ void SingleTestCase()
 	cout << "done" << endl;
 
 	cout << "MoveToAvailable ...";	
-	for_each(list.begin(),list.end(),[&](ICar* m)
-	{
-		Rental.MoveToAvailable(m);
-	});	
+	Rental.MoveToAvailable(MyCar);
 	cout << "done" << endl;	
 
 	cout << "PrintAvailable ...";
 	Rental.PrintAvailable(cout);
 	cout << "done" << endl;
+	
+	cout << endl << endl;
+}
+
+void MultiTestCase()
+{
+	cout << "Testcase with several entries" << endl;
+
+	CarRental Rental;
+
+	ICar* VW = new SmallCar("VW","Golf");
+	ICar* MyCar = new Decorator_AirConditioner(VW);
+
+	ICar* Audi = new PremiumCar("Audi","R8");
+	ICar* Xenon = new Decorator_Xenion(Audi);
+	ICar* MySecondCar = new Decorator_Navi(Xenon);
+
+	ICar* MySUV = new SUV("Toyota","RAV4");
+	
+	ICar* BMW = new MiddleRangeCar("BMW","3");
+	ICar* MyMiddleRangeCar = new Decorator_Speedometer(BMW);
+
+	cout << "Add ...";
+	Rental.Add(MyCar);
+	Rental.Add(MySecondCar);
+	Rental.Add(MySUV);
+	Rental.Add(MyMiddleRangeCar);
+	cout << "done" << endl;
+
+	cout << "GetAvailable ...";
+	TCarList list = Rental.GetAvailable("VW","Golf");
+	cout << "done" << endl;
+
+	cout << "Reserve ...";
+	Rental.Reserve(MySecondCar);
+	Rental.Reserve(MySUV);
+	cout << "done" << endl;
+
+	cout << "GetReserved ...";
+	Rental.GetReserved("VW","Golf");
+	cout << "done" << endl;
+
+	cout << "PrintReserved ...";
+	Rental.PrintReserved(cout);
+	cout << "done" << endl;
+
+	cout << "MoveToAvailable ...";	
+	Rental.MoveToAvailable(MySUV);
+	cout << "done" << endl;	
+
+	cout << "PrintAvailable ...";
+	Rental.PrintAvailable(cout);
+	cout << "done" << endl;
+	
+	cout << endl << endl;
 }
 
 int main()
 {
 	EmptyTestCase();
 	SingleTestCase();
+	MultiTestCase();
 
 	return 0;
 }

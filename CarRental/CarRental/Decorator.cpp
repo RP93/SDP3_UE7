@@ -1,4 +1,4 @@
- 
+
 ///////////////////////////////////////////////////////////////////////////
 // Workfile : Decorator.cpp
 // Author : Reinhard Penn, Bernhard Selymes
@@ -8,6 +8,11 @@
 
 #include <iostream>
 #include "Decorator.h"
+
+Decorator::~Decorator()
+{
+	delete mComp;
+}
 
 std::string Decorator::GetManufacturer() const
 {

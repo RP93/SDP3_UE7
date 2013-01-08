@@ -13,11 +13,10 @@
 
 CarRental::~CarRental() 
 {
-	std::for_each(mAvailableCars.begin(),mAvailableCars.end(),[&](ICar* m)
+	std::for_each(mReservedCars.begin(),mReservedCars.end(),[&](ICar* m)
 	{
 		delete m;
 	});
-
 	std::for_each(mReservedCars.begin(),mReservedCars.end(),[&](ICar* m)
 	{
 		delete m;
@@ -58,6 +57,7 @@ void CarRental::PrintAvailable(std::ostream& ost) const
 		std::for_each(mAvailableCars.begin(),mAvailableCars.end(),[&](ICar* m)
 		{
 			m->Print(ost);
+			ost << "Total price: " << m->GetPrice() << std::endl;
 		});
 	}
 	catch (std::string const& error)
@@ -83,6 +83,7 @@ void CarRental::PrintReserved(std::ostream& ost) const
 		std::for_each(mReservedCars.begin(),mReservedCars.end(),[&](ICar* m)
 		{
 			m->Print(ost);
+			ost << "Total price: " << m->GetPrice() << std::endl;
 		});
 	}
 	catch (std::string const& error)
@@ -142,8 +143,8 @@ void CarRental::Reserve(ICar* c)
 			throw (error);
 		}
 
-		mAvailableCars.remove(*itor);
 		mReservedCars.push_back(*itor);
+		mAvailableCars.remove(*itor);
 	}
 	catch (std::string const& error)
 	{
@@ -172,8 +173,8 @@ void CarRental::MoveToAvailable(ICar* c)
 			throw (error);
 		}
 
-		mReservedCars.remove(*itor);
 		mAvailableCars.push_back(*itor);
+		mReservedCars.remove(*itor);		
 	}
 	catch (std::string const& error)
 	{
